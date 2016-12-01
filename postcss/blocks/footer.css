@@ -1,0 +1,18 @@
+.footer {
+  background-color: #333;
+
+  color: white;
+  text-align: center;
+}
+
+.footer__creators {
+  @mixin margin-reset;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer__link {
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+}

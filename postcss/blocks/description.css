@@ -1,0 +1,67 @@
+.description {
+  background-color: white;
+
+  border-top: 1px solid #cdcdcd;
+}
+
+.description__item p {
+  margin: 0;
+
+  @media (min-width: 768px) {
+    margin: auto;
+  }
+}
+
+.description__technologies {
+  padding: 20px 30px;
+
+  background-color: #0b9444;
+  color: white;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 700;
+
+  @media (min-width: 768px) {
+    padding: 40px 30px;
+
+    background-image: url("../img/background-layer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+.description__ecology {
+  padding: 20px 30px;
+
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 700;
+
+  @media (min-width: 768px) {
+    padding: 40px 30px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  @media (min-width: 1023px) {
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+.description__history {
+  display: block;
+  @media (min-width: 768px) {
+    width: 670px;
+  }
+
+  @media (min-width: 1023px) {
+    font-size: 20px;
+    line-height: 22px;
+  }
+}
