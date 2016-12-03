@@ -57,26 +57,9 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.contacts__last-link {
+  margin-right: 0;
+}
 
 /* ----- MAP ----- */
 
@@ -119,5 +102,11 @@
     border-top: 1px solid #cdcdcd;
     border-bottom: 1px solid #cdcdcd;
     background-color: white;
+  }
+}
+
+.contacts__desktop-max-frame {
+  @media (min-width: 1280px) {
+    border: 0;
   }
 }

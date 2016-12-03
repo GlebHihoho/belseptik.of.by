@@ -1,0 +1,3 @@
+Host: www.belseptik.of.by
+
+Sitemap: http://belseptik.of.by/sitemap.xml

@@ -1,14 +1,22 @@
 $(document).ready(function(){
   $('.slider').slick({
     infinite: true,
-    initialSlide: 2,
+    initialSlide: 0,
     slidesToShow: 1,
     slidesToScroll: 1,
     mobileFirst: true,
     autoplay: true,
-    autoplaySpeed: 7500,
-    // dots: true,
-    // arrows: true,
-    speed: 1500
+    autoplaySpeed: 5500,
+    arrows: false,
+    speed: 3000,
+
+    responsive: [
+    {
+      breakpoint: 760,
+      settings: {
+        arrows: true
+      }
+    }
+    ]
   });
 });
