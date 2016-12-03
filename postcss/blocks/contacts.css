@@ -105,8 +105,6 @@
   }
 }
 
-.contacts__desktop-max-frame {
-  @media (min-width: 1280px) {
-    border: 0;
-  }
+.contacts__desktop-frame {
+  border: 0;
 }
