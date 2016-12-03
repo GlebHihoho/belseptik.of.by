@@ -2,6 +2,7 @@
 @import "global.css";
 
 @import "blocks/header.css";
+@import "blocks/slider.css";
 @import "blocks/description.css";
 @import "blocks/advantages.css";
 @import "blocks/contacts.css";

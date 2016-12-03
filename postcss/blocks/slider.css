@@ -1,0 +1,26 @@
+.slider__first {
+  background-image: url("../img/slider_desktop_1.jpg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;;
+}
+
+.slider__h2 {
+  @mixin margin-reset;
+  color: #444
+
+}
+
+.slider__content {
+  width: 600px;
+  background-color: rgba(211, 205, 205, 0.7);
+
+
+  color: black;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.slider__list {
+  @mixin margin-reset;
+}
